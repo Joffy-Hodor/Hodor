@@ -1,0 +1,30 @@
+﻿@model HodorTutor.Models.ViewModels.Announces.AnnounceView
+@{
+    ViewBag.Title = "Index";
+}
+
+<table class="table table-striped" width="100%">
+    <thead>
+        <tr>
+            <th width="50%">หัวข้อ</th>
+            <th>วันที่ลงประกาศ</th>
+            <th>ผู้ลงประกาศ</th>
+        </tr>       
+    </thead>
+    <tbody>
+    @foreach(var item in Model.AnnouneList)
+    {
+        <tr>
+            <td>
+                @Html.Label(item.Title)<span class="badge">42</span>
+            </td>
+            <td>
+                @Html.Label(item.CreateDate.ToShortDateString())
+            </td>
+            <td>
+                @Html.Label(item.Tutor.FirstName)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

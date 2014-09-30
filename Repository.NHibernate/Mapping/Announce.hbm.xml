@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping
+	xmlns="urn:nhibernate-mapping-2.2"
+	namespace="HodorTutor.Model.Announces"
+	assembly="Model">
+
+    <class name="Announce" table="Announces">
+
+        <id name="Id">
+            <generator class="assigned"></generator>
+        </id>
+        <many-to-one name="UserProfile" column="UserId" cascade="all" not-null="true" unique="true"></many-to-one>
+        <many-to-one name="Tutor" column="TutorId" cascade="all" not-null="true" unique="true"></many-to-one>
+
+        <property name="Title" not-null="true"></property>
+        <property name="Detail" not-null="true"></property>
+        <property name="TagsId"></property>
+        <property name="CreateDate"></property>
+        <property name="IsLocked"></property>
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,42 @@
+﻿@model HodorTutor.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+<div class="row">
+@using (Html.BeginForm()) {
+    <h1 class="page-header" style="margin-top:0px; padding-left:12px">@ViewBag.Title.</h1>
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    <form role="form">
+        <div class="col-lg-8">
+            <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+            <div class="form-group">
+                <label for="InputName">@Html.LabelFor(m => m.UserName)</label>
+                <div class="input-group">
+                    @Html.TextBoxFor(m => m.UserName, new { @class="form-control", @placeholder="Enter Name" })
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password)
+                <div class="input-group">
+                    @Html.TextBoxFor(m => m.Password, new { @class="form-control", @placeholder="Enter password", @type="password" })
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                </div>
+            </div>
+            <div class="form-group">
+                    @Html.LabelFor(m => m.ConfirmPassword)
+                <div class="input-group">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class="form-control", @placeholder="Enter confirm password", @type="password" })
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                </div>
+            </div>
+            <input type="submit" name="submit" id="submit" value="Create an account" class="btn btn-info pull-right">
+        </div>
+    </form>
+}
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

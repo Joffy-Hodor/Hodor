@@ -1,0 +1,25 @@
+﻿@model HodorTutor.Model.Provinces.Province
+@{
+    ViewBag.Title = "Province";
+}
+
+<h2>Province</h2>
+
+<div style="width:410px; margin-top:25px; padding-left:420px;">
+
+    @using(Html.BeginForm()){
+        @Html.ValidationSummary(true)
+		<p>
+			@Html.LabelFor(e => e.Name)
+			@Html.TextBoxFor(e => e.Name, new { @style = "width:100%;", maxlength = 50 })<br />
+			@Html.ValidationMessageFor(e => e.Name)      
+		</p><br />
+        <p>
+			@Html.LabelFor(e => e.AreaId)
+			@Html.TextBoxFor(e => e.AreaId, new { @style = "width:100%;", maxlength = 50 })<br />
+			@Html.ValidationMessageFor(e => e.AreaId)      
+		</p><br />
+            
+		<input type="submit" value="OK" class="btn btn-inverse btn-large"/>
+	}
+</div>

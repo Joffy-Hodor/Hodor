@@ -1,0 +1,33 @@
+﻿@model HodorTutor.Models.ViewModels.Announces.AnnounceView
+@{
+    ViewBag.Title = "Create";
+}
+
+@Html.ActionLink("หน้าแรก", "Index", "Home")&raquo;@Html.ActionLink("ตั้งประกาศ", "Create", "Announce")
+<br /><br />
+<div> 
+    @using(Html.BeginForm()){
+    <table>
+        @Html.ValidationSummary(true)
+		<tr>
+            <td style="width:20%">
+			@Html.LabelFor(e => e.Title)
+            </td>
+            <td>
+			@Html.TextBoxFor(e => e.Title, new { @style = "width:70%;", maxlength = 50 })<br />
+			@Html.ValidationMessageFor(e => e.Title)     
+            </td>
+        </tr>
+        <tr>
+            <td>
+			@Html.LabelFor(e => e.Detail)
+            </td>
+            <td>
+			@Html.TextBoxFor(e => e.Detail, new { @style = "width:70%; height:80px;" })<br />
+			@Html.ValidationMessageFor(e => e.Detail)     
+		    </td> 
+		</tr>
+        <tr><td><input type="submit" value="ตั้งประกาศ" class="btn btn-inverse btn-large" /></td></tr>
+    </table>
+	}
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\Infrastructure\obj\Debug\Infrastructure.pdb

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tutos-include</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="~/Content/round-about.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="padding-top:10px" href="/"><img src="~/Content/themes/base/images/logo.png" width="180px" height="30"/></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>    
+                    <li>
+                        <a href="@Url.Action("Register", "Tutor")">Profile</a>
+                    </li>                     
+                </ul>             
+                <div class="col-sm-3 col-md-3 pull-right">            
+                    @*<form class="navbar-form" role="search" ></form>*@   
+                    @using (Html.BeginForm("Index", "Tutor", FormMethod.Get, new { @class="navbar-form", role="search" })) {
+                        <div class="input-group">
+                            @Html.TextBox("Name", "", new { @class = "form-control", placeholder = "What city ?" })
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i><a href="@Url.Action("Index", "Tutor")"></a></button>
+                            </div>       
+                        </div>
+                    }                 
+                </div>       
+            </div> 
+            <!-- /.navbar-collapse -->
+        </div>
+
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-md-3">
+            @*<p class="lead">Shop Name</p>*@
+            <div class="list-group">
+                    <a href="@Url.Action("Index", "Announce")" class="list-group-item">ประกาศ</a>
+                    <a href="@Url.Action("Index", "Tutor")" class="list-group-item">Tutors List</a>
+                    <a href="@Url.Action("Register", "Tutor")" class="list-group-item">Profile</a>
+            </div>
+            @if (Request.IsAuthenticated) {    
+                <text><p>Hello, @Html.ActionLink(User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })</p></text>
+                using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) {
+                @Html.AntiForgeryToken()
+                <a href="javascript:document.getElementById('logoutForm').submit()">ออกจากระบบ</a>                       
+                }
+            }
+        </div>
+        <div class="col-md-8">
+        @RenderBody()
+        
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <p class="pull-right">Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="~/Scripts/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>   
+</html>

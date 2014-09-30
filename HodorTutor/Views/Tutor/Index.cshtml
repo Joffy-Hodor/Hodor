@@ -1,0 +1,71 @@
+﻿@model HodorTutor.Models.ViewModels.Tutors.TutorView
+@{
+    ViewBag.Title = "Index";
+    var count = 0;
+}
+<h1 class="header" style="margin-top:0px; padding-left:0px">Tutors List</h1>
+    <table class="table">
+        <tr>
+                <th>Name</th>
+                <th>Last name</th>
+                <th>Address</th>
+                <th>Tel no.</th>
+                <th>City</th>
+        </tr>
+        <tbody>
+            @foreach (var item in Model.TutorList)
+            { 
+                if(count%2 == 0)
+                {
+                    <tr>
+                        <td>
+                            @item.FirstName
+                        </td>
+                        <td>
+                            @item.LastName
+                        </td>
+                        <td>
+                            @item.Address
+                        </td>
+
+                        <td>
+                            @item.TelephoneNumber
+                        </td>
+                        <td>
+                            @item.City
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    <tr class="alt">
+                        <td>
+                            @item.FirstName
+                        </td>
+                        <td>
+                            @item.LastName
+                        </td>
+                        <td>
+                            @item.Address
+                        </td>
+
+                        <td>
+                            @item.TelephoneNumber
+                        </td>
+                        <td>
+                            @item.City
+                        </td>
+                    </tr>
+                }
+                count = count + 1;
+            }
+        </tbody>
+    </table>
+    @if (Model.TutorList.Count() == 0)
+    { 
+        <label>- ไม่พบข้อมูล -</label>
+    }
+                
+</div>
+
+
