@@ -4,12 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Tutos-include</title>
-    test commit 1
     <!-- Bootstrap Core CSS -->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet">
-
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="~/Content/round-about.css" rel="stylesheet">
+    <!-- jQuery Version 1.11.0 -->
+    <script src="~/Scripts/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -59,15 +62,15 @@
         <!-- /.container -->
     </nav>
 
-
     <!-- Page Content -->
     <div class="container">
         <div class="col-md-3">
             @*<p class="lead">Shop Name</p>*@
             <div class="list-group">
-                    <a href="@Url.Action("Index", "Announce")" class="list-group-item">ประกาศ</a>
-                    <a href="@Url.Action("Index", "Tutor")" class="list-group-item">Tutors List</a>
-                    <a href="@Url.Action("Register", "Tutor")" class="list-group-item">Profile</a>
+                    <a href="@Url.Action("Create", "Announce")" class="list-group-item"><i id="p1" class="fa fa-pencil fa-fw" style="display:none"></i> เขียนประกาศ</a>
+                    <a href="@Url.Action("Index", "Announce")" class="list-group-item"><i id="p2" class="fa fa-bullhorn fa-fw" style="display:none"></i> ประกาศ</a>
+                    <a href="@Url.Action("Index", "Tutor")" class="list-group-item"><i id="p3" class="fa fa-list fa-fw" style="display:none"></i> Tutors List</a>
+                    <a href="@Url.Action("Register", "Tutor")" class="list-group-item"><i id="p4" class="fa fa-user fa-fw" style="display:none"></i> Profile</a>
             </div>
             @if (Request.IsAuthenticated) {    
                 <text><p>Hello, @Html.ActionLink(User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })</p></text>
@@ -79,7 +82,7 @@
         </div>
         <div class="col-md-8">
         @RenderBody()
-        
+        </div>
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -90,15 +93,8 @@
             </div>
             <!-- /.row -->
         </footer>
-        </div>
     </div>
     <!-- /.container -->
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="~/Scripts/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="~/Scripts/bootstrap.min.js"></script>
 
     @RenderSection("scripts", required: false)
 </body>   

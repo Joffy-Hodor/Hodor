@@ -84,7 +84,9 @@
     <EmbeddedResource Include="Mapping\Tutor.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mapping\Announce.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Announce.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mapping\UserProfile.hbm.xml" />

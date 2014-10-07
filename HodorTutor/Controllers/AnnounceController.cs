@@ -19,8 +19,6 @@ namespace HodorTutor.Controllers
         {
             _announceService = announceService;
         }
-        //
-        // GET: /Announce/
 
         public ActionResult Index()
         {
@@ -29,24 +27,16 @@ namespace HodorTutor.Controllers
             return View(view);
         }
 
-        //
-        // GET: /Announce/Details/5
-
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        //
-        // GET: /Announce/Create
         [Authorize]
         public ActionResult Create()
         {
             return View();
         }
-
-        //
-        // POST: /Announce/Create
 
         [HttpPost]
         public ActionResult Create(AnnounceView request)
@@ -70,16 +60,10 @@ namespace HodorTutor.Controllers
             }
         }
 
-        //
-        // GET: /Announce/Edit/5
-
         public ActionResult Edit(int id)
         {
             return View();
         }
-
-        //
-        // POST: /Announce/Edit/5
 
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
@@ -96,16 +80,10 @@ namespace HodorTutor.Controllers
             }
         }
 
-        //
-        // GET: /Announce/Delete/5
-
         public ActionResult Delete(int id)
         {
             return View();
         }
-
-        //
-        // POST: /Announce/Delete/5
 
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
