@@ -112,6 +112,8 @@ C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\E
 C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Nest.pdb
 C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Nest.xml
 C:\Users\Chanakan\Desktop\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\jQueryExtensions.dll
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Elasticsearch.Net.dll
+C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\obj\Debug\HodorTutor.csprojResolveAssemblyReference.cache
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\HodorTutor.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\HodorTutor.pdb
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Antlr3.Runtime.dll
@@ -121,7 +123,6 @@ C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTuto
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\DotNetOpenAuth.OAuth.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\DotNetOpenAuth.OpenId.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Elasticsearch.Net.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\EntityFramework.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Infrastructure.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\jQueryExtensions.dll
@@ -139,12 +140,9 @@ C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTuto
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Repository.NHibernate.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Services.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\StructureMap.dll
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Net.Http.Formatting.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Spatial.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Helpers.dll
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Http.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Http.OData.dll
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Http.WebHost.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Mvc.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Optimization.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Razor.dll
@@ -172,10 +170,7 @@ C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTuto
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Nest.xml
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\Newtonsoft.Json.xml
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\EntityFramework.xml
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Net.Http.Formatting.xml
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Helpers.xml
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Http.xml
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Http.WebHost.xml
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Mvc.xml
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.Razor.xml
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\System.Web.WebPages.xml
@@ -223,6 +218,5 @@ C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTuto
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\ru\System.Spatial.resources.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\obj\Debug\HodorTutor.csprojResolveAssemblyReference.cache
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\obj\Debug\HodorTutor.dll
 C:\Users\Chanakan\Desktop\Finder\Kan's Projects\tutor-apply\HodorTutor\HodorTutor\obj\Debug\HodorTutor.pdb
